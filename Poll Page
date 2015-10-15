@@ -1,1 +1,203 @@
 
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>M.A.T</title>
+ <!-- Bootstrap -->
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+ <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
+queries -->
+ <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+ <!--[if lt IE 9]>
+ <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></
+script>
+ <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/
+respond.min.js"></script>
+ <![endif]-->
+ 
+<style>
+    body {
+        margin-top: 20px;
+    }
+
+    .panel-body:not(.two-col) {
+        padding: 0px;
+    }
+
+    .glyphicon {
+        margin-right: 5px;
+    }
+
+    .glyphicon-new-window {
+        margin-left: 5px;
+    }
+
+    .panel-body .radio, .panel-body .checkbox {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .panel-body .list-group {
+        margin-bottom: 0;
+    }
+
+    .margin-bottom-none {
+        margin-bottom: 0;
+    }
+	#footer{
+		background-color: white;
+		padding-top: 70px;
+		width:100%;
+		text-align: center;
+		
+	}
+
+    .panel-body .radio label, .panel-body .checkbox label {
+        display: block;
+    }
+	#topContainer{		
+		 height: 100%; 
+ 	 	 margin-top: 100px;
+ 	 	 width:100%;
+		 text-align: left;
+ 	 	 background-size:cover;
+		 background-color: rgba(255,185,52,0.5);
+		 color: black;		
+	}
+	.bg{
+	margin-top: 20px;
+		background-image:url('http://cache.gawkerassets.com/assets/images/17/2011/02/simple_desktops_-_sunset.png');
+		background-repeat: no-repeat;
+     	background-attachment: fixed;
+     	background-position: center;
+		width: 100%;
+	}
+	#toprow{
+		margin-top: 20px;
+		text-align: center;
+	}
+	#middlerow{
+		margin-top: 20px;
+		margin-left: 0px;
+		background-color: rgba(255,98,0,0.5);
+		width:100%;
+		text-align: center;
+		color: black;
+	}
+	.panel-heading .panel-primary {
+     background-color: #ffb900 ;
+	}
+</style>	
+</head>
+<body class="bg">
+<div class="navbar navbar-inverse navbar-fixed-top">
+ <div class="container">
+ 	 	 <div class="navbar-header">
+ 	 	 	 <button class="navbar-toggle" data-toggle="collapse" datatarget=".navbar-collapse">
+ 	 	 	 	 <span class="icon-bar"></span>
+ 	 	 	 	 <span class="icon-bar"></span>
+ 	 	 	 	 <span class="icon-bar"></span>
+ 	 	 	 </button>
+ 	 	 	 <a class="navbar-brand">M.A.T</a>
+ 	 	 </div>
+ 	 	 	
+ 	 	 <div data-spy="scroll" class="collapse navbar-collapse">
+ 	 	 	 <ul class="nav navbar-nav">	 	
+ 	 	 	 	 <li class="active"><a href="poll.html">Home</a></li>
+ 	 	 	 	 <li><a href="poll.html">Categories</a></li>
+ 	 	 	 	 <li><a href="poll.html">Download The App</a></li>
+ 	 	 	 </ul>
+ 	 	 	 <div class="navbar-right">
+ 	 	 	 	 <ul class="nav navbar-nav">	 	
+ 	 	 	 	 <li class="active"><a href="poll.html">My Profile</a></li>
+ 	 	 	 	 <li><a href="poll.html">Account</a></li>
+				 <li><a href="">Log Out</a></li>
+ 	 	 	 	 </ul>
+	 	 	
+ 	 	 	</div>
+		 </div>
+ </div>
+ </div>
+
+
+<div class="container" id="topContainer">
+       <div>
+        <div class="panel panel-warning">
+  		<div class="panel-heading"><h3>Cat Person?</h3></div>
+            <div class="panel-body">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="">Their play-time is 2 AM
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="">When you want to run some errands they conquer your lap
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value=""> Kneading on your new leather couch
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value=""> Non-stop self-cleaning
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value=""> Not a cat person
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="panel-footer text-center">
+                <button type="button" class="btn btn-primary btn-block btn-warning">
+                    Vote</button>
+                <a href="#" class="small">View Result</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+<nav>
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+	<li><a href="#">6</a></li>
+    <li><a href="#">7</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+</div>
+
+ </body>
+</html>

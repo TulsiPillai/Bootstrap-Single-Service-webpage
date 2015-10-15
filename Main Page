@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>M.A.T</title>
+ <!-- Bootstrap -->
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+ <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
+queries -->
+ <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+ <!--[if lt IE 9]>
+ <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></
+script>
+ <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/
+respond.min.js"></script>
+ <![endif]-->
+ 
+<style>
+    body {
+        margin-top: 20px;
+		font-family: "Georgia", Serif;
+    }
+
+    .panel-body:not(.two-col) {
+        padding: 0px;
+    }
+
+    .glyphicon {
+        margin-right: 5px;
+    }
+
+    .glyphicon-new-window {
+        margin-left: 5px;
+    }
+
+    .panel-body .radio, .panel-body .checkbox {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .panel-body .list-group {
+        margin-bottom: 0;
+    }
+
+    .margin-bottom-none {
+        margin-bottom: 0;
+    }
+	#footer{
+		background-color: white;
+		padding-top: 70px;
+		width:100%;
+		text-align: center;
+		color:#D9AF00;
+		
+	}
+
+    .panel-body .radio label, .panel-body .checkbox label {
+        display: block;
+    }
+	#topContainer{		
+		 height: 100%; 
+ 	 	 padding-top: 20px;
+ 	 	 width:100%;
+ 	 	 background-size:cover;
+		 background-color: rgba(255,185,52,0.5);
+		 color: #3D2F00;'		
+	}
+	.bg{
+	margin-top: 20px;
+		background-image:url('http://cache.gawkerassets.com/assets/images/17/2011/02/simple_desktops_-_sunset.png');
+		background-repeat: no-repeat;
+     	background-attachment: fixed;
+     	background-position: center;
+		width: 100%;
+	}
+	#toprow{
+		margin-top: 20px;
+		text-align: center;
+	}
+	#middlerow{
+		padding-top: 50px;
+		margin-left: 0px;
+		width:100%;
+		text-align: center;
+		color: #9C4B00;
+		height: 100%;
+	}
+	.panel-heading .panel-primary {
+     background-color: #ffb900 ;
+	}
+</style>	
+</head>
+<body class="bg">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+ 		<div class="container">
+ 	 	 	<div class="navbar-header">
+ 	 	 		<button class="navbar-toggle" data-toggle="collapse" datatarget=".navbar-collapse">
+	 	 	 	 	<span class="icon-bar"></span>
+	 	 	 	 	<span class="icon-bar"></span>
+	 	 	 	 	<span class="icon-bar"></span>
+ 	 	 	 	</button>
+ 	 	 	 	<a class="navbar-brand">M.A.T</a>
+ 	 		</div>
+ 	 	 	
+ 	 	 	<div data-spy="scroll" class="collapse navbar-collapse">
+ 	 	 		<ul class="nav navbar-nav">	 	
+	 	 	 	 	 <li class="active"><a href="#topContainer">Home</a></li>
+	 	 	 	 	 <li><a href="#middlerow">Categories</a></li>
+	 	 	 	 	 <li><a href="#footer">Download The App</a></li>
+ 	 	 	 	</ul>
+ 	 	 	 	<form class="navbar-form navbar-right">
+ 	 	 	 	<div class="form-group">
+ 	 	 	 	 	 <input type="email" placeholder="Email" class="form-control" />
+ 	 	 	 	</div>
+ 	 	 	 	<div class="form-group">
+ 	 	 	 	 	 <input type="password" placeholder="Password" class="form-control" />
+ 	 	 	 	</div>
+ 	 	 	 	<button type="submit" class="btn btn-warning">Log In</button>
+ 	 	 	 	</form> 	 	 	 	
+ 	 	 	</div>
+ 		</div>
+	</div>
+	
+	<div id="topContainer">
+		<div class="row">		
+			<div class="col-md-6 col-md-offset-3" id="toprow">			
+				<h1><b>Most Annoying Things in Life</b></h1>
+				<h3 clas="lead">To vent your frustrations, cast your vote and have some fun!</h3p>
+				<h2>Sign Up below to become a member and share your poll results with other members.</h2>				
+				<h3>If you get lucky, you will meet someone who's a lot like you!</h3>
+				<form>
+					<div class="form-group">
+						<input type ="email" placeholder="Type Your Email Address Here" class="form-control"/>
+					</div>
+					<button type="submit" class="btn btn-warning">Sign Up</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<br/>
+	<br/>
+	
+	<div class="container contentContainer" id="middlerow">
+		
+  		<h1 class="title-center">Categories</h1>
+		<br/>
+        <div class="row placeholders">
+            <div class="col-xs-6 col-sm-3 placeholder">
+              	<a href="voting_page.html" class="thumbnail">
+      				<img src="images/home.png" alt="...">
+    			</a>
+              	<h3>Home</h3>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              	<a href="work.html" class="thumbnail">
+      				<img src="images/work.png" alt="...">
+    			</a>
+              	<h3>Work</h3>
+            </div>
+			<div class="col-xs-6 col-sm-3 placeholder">
+              	<a href="pets.html" class="thumbnail">
+      				<img src="images/cat.png" alt="...">
+    			</a>
+             	<h3>Pets</h3>
+            </div>
+			<div class="col-xs-6 col-sm-3 placeholder">
+              <a href="voting_page.html" class="thumbnail">
+      				<img src="images/internet.png" alt="...">
+    			</a>
+              	<h3>Internet</h3>
+            </div>
+		</div>
+		<br/>		  
+	</div>
+
+<div class="container contentContainer" id="footer">
+		
+	<h1 class="title center">Download the App!</h1>
+	<br/>
+	<div class="row">
+  	<div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+    	<img src="images/ios.png" alt="...">
+      		<div class="caption">
+        <h3>iOS</h3>
+        <p><a href="#" class="btn btn-warning" role="button">Download</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+  <div class="thumbnail">
+    	<img src="images/windows.png" alt="...">
+      		<div class="caption">
+        <h3>Windows</h3>
+        <p><a href="#" class="btn btn-warning" role="button">Download</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+  <div class="thumbnail">
+    	<img src="images/android.png" alt="...">
+      		<div class="caption">
+        <h3>Android</h3>
+        <p><a href="#" class="btn btn-warning" role="button">Download</a></p>
+      </div>
+    </div>
+  </div>
+</div>	
+	</div>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+ 	<!-- Include all compiled plugins (below), or include individual files as needed -->
+ 	<script src="js/bootstrap.min.js"></script>
+	<script>	
+		$(".contentContainer").css("min-height",$(window).height());	
+	</script>
+ </body>
+</html>

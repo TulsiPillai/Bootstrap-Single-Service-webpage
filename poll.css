@@ -1,0 +1,72 @@
+   body {
+        margin-top: 20px;
+		font-family: "Georgia", Serif;
+    }
+
+    .panel-body:not(.two-col) {
+        padding: 0px;
+    }
+
+    .glyphicon {
+        margin-right: 5px;
+    }
+
+    .glyphicon-new-window {
+        margin-left: 5px;
+    }
+
+    .panel-body .radio, .panel-body .checkbox {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .panel-body .list-group {
+        margin-bottom: 0;
+    }
+
+    .margin-bottom-none {
+        margin-bottom: 0;
+    }
+	#footer{
+		background-color: white;
+		padding-top: 70px;
+		width:100%;
+		text-align: center;
+		color:#D9AF00;
+		
+	}
+
+    .panel-body .radio label, .panel-body .checkbox label {
+        display: block;
+    }
+	#topContainer{		
+		 height: 100%; 
+ 	 	 padding-top: 20px;
+ 	 	 width:100%;
+ 	 	 background-size:cover;
+		 background-color: rgba(255,185,52,0.5);
+		 color: #3D2F00;'		
+	}
+	.bg{
+	margin-top: 20px;
+		background-image:url('http://cache.gawkerassets.com/assets/images/17/2011/02/simple_desktops_-_sunset.png');
+		background-repeat: no-repeat;
+     	background-attachment: fixed;
+     	background-position: center;
+		width: 100%;
+	}
+	#toprow{
+		margin-top: 20px;
+		text-align: center;
+	}
+	#middlerow{
+		padding-top: 50px;
+		margin-left: 0px;
+		width:100%;
+		text-align: center;
+		color: #9C4B00;
+		height: 100%;
+	}
+	.panel-heading .panel-primary {
+     background-color: #ffb900 ;
+	}
